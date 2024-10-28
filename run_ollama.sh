@@ -9,7 +9,7 @@ pid=$!
 sleep 5
 
 echo "🔴 Retrieve llm model..."
-ollama pull llama3.2
+ollama pull llama3.2:1b-instruct-q4_0
 echo "🟢 Done!"
 
 echo "🔴 Retrieve nomic-embed-text model..."
