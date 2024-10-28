@@ -1,0 +1,5 @@
+.env
+.idea
+.vscode
+docker
+weaviate_data
